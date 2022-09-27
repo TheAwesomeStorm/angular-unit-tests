@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Photo } from '../../interfaces/photo';
-import { PhotoBoardService } from '../../services/photo-board/photo-board.service';
+import { Photo } from '../../shared/interfaces/photo';
+import { PhotoBoardService } from '../../shared/services/photo-board/photo-board.service';
 
 @Component({
   selector: 'app-photo-list',
