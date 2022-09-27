@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LikeWidgetModule } from './shared/components/like-widget/like-widget.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PhotoFrameModule } from './shared/components/photo-frame/photo-frame.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PhotoFrameModule } from './shared/components/photo-frame/photo-frame.mo
     AppRoutingModule,
     LikeWidgetModule,
     PhotoFrameModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
