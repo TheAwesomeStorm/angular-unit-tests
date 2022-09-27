@@ -7,6 +7,7 @@ import { LikeWidgetModule } from './shared/components/like-widget/like-widget.mo
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { PhotoFrameModule } from './shared/components/photo-frame/photo-frame.module';
 import { HttpClientModule } from '@angular/common/http';
+import { PhotoBoardModule } from './shared/components/photo-board/photo-board.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
     LikeWidgetModule,
     PhotoFrameModule,
     FontAwesomeModule,
-    HttpClientModule
+    HttpClientModule,
+    PhotoBoardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

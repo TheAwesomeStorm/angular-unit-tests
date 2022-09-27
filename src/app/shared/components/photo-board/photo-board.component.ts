@@ -8,7 +8,7 @@ import { Photo } from '../../interfaces/photo';
 })
 export class PhotoBoardComponent implements OnInit, OnChanges {
 
-  @Input() public photos: Photo[] = [];
+  @Input() public photos: Photo[] | null = [];
   public rows: any[][] = [];
 
   constructor() { }
